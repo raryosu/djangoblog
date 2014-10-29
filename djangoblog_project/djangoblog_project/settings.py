@@ -1,5 +1,5 @@
 """
-Django settings for blog project.
+Django settings for djangoblog_project project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'b^(09@qo$x@$y%8+miu-ru%#bd2b7w%0j_(^w+@m))9=#76enu'
+SECRET_KEY = 'e)xe%a)q7x=-#k4kj2@*6cg7v6qxv=kni2-lc=yy67fycyu+-l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -48,9 +48,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'blog.urls'
+ROOT_URLCONF = 'djangoblog_project.urls'
 
-WSGI_APPLICATION = 'blog.wsgi.application'
+WSGI_APPLICATION = 'djangoblog_project.wsgi.application'
 
 
 # Database
@@ -66,11 +66,9 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
-# LANGUAGE_CODE = 'en-us'
-LANGUAGE_CODE = 'ja'
+LANGUAGE_CODE = 'en-us'
 
-# TIME_ZONE = 'UTC'
-TIME_ZONE = 'Asia/Tokyo'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
