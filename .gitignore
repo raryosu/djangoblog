@@ -52,3 +52,19 @@ docs/_build/
 
 # PyBuilder
 target/
+
+*~
+*.orig
+*.pyc
+*.rej
+.installed.cfg
+__minitage__*
+bin/*
+develop-eggs
+downloads
+eggs
+log
+parts
+media/uploads
+tmp
+.DS_Store
