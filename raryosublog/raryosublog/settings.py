@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'bootstrapform',
     'blog',
 )
 
@@ -87,3 +88,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(SITE_ROOT, 'static'),
     )
+
+COMPRESS_PRECOMPILERS = (
+    ('text/scss', 'sass --scss --compass {infile} {outfile}'),
+    )
+
