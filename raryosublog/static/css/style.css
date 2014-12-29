@@ -27,3 +27,12 @@ body{
 .panel-heading .date{
   line-height: 25px;
 }
+
+.progress,
+h2{
+  margin: 0 20px;
+}
+
+.progress{
+  height: 30px;
+}
