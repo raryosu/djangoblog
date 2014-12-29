@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}投稿{% endblock title %}
+
+{% block content %}
+  <form action="{% url 'blog:edit' %}" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit">投稿</button>
+  </form>
+{%endblock content %}

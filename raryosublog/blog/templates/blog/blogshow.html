@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}ブログ内容{% endblock title %}
+
+{% block content %}
+  <a href="{% url 'blog:edit' %}">投稿画面</a>
+  {% for blog in blogs %}
+    <h3>日付</h3>
+    {{ blog.date }}
+    <h3>タイトル</h3>
+    {{ blog.title }}
+  {% endfor %}
+{% endblock content %}
