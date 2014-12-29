@@ -1,0 +1,29 @@
+body{
+  overflow-x: hidden;
+}
+
+.navbar{
+  margin-bottom: 0;
+}
+
+.jumbotron h1,
+.jumbotron p{
+  margin: 0 20px;
+}
+
+.panel{
+  margin: 30px 20px;
+}
+
+.panel-title{
+  font-size: 30px;
+  line-height: 25px;
+}
+
+.panel-heading{
+  height: 50px;
+}
+
+.panel-heading .date{
+  line-height: 25px;
+}
