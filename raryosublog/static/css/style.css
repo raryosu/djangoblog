@@ -6,13 +6,9 @@ body{
   margin-bottom: 0;
 }
 
-.jumbotron h1,
-.jumbotron p{
-  margin: 0 20px;
-}
 
 .panel{
-  margin: 30px 20px;
+  margin: 30px 0;
 }
 
 .panel-title{
@@ -26,11 +22,6 @@ body{
 
 .panel-heading .date{
   line-height: 25px;
-}
-
-.progress,
-h2{
-  margin: 0 20px;
 }
 
 .progress{
