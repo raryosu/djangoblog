@@ -11,19 +11,6 @@ import os
 import site
 import sys
 
-# Virtualenv
-site.addsitedir("/home/raryosu/ENV/lib/python3.3/site-packages")
-
-sys.path.append('/var/www/cgi-bin/raryosublog')
-sys.path.append('/var/www/cgi-bin/raryosublog/raryosublog')
-
-os.environ['DJANGO_SETTINGS_MODULE'] = 'raryosublog.settings'
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "raryosublog.settings")
-
-active_env = os.path.expanduser("/home/raryosu/ENV/bin/active_this.py")
-execfile(active_env, dict(__file__=active_env))
-
-
 #from django.core.wsgi import get_wsgi_application
 #application = get_wsgi_application()
 
